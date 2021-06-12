@@ -1,0 +1,240 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Montserrat Alternates", sans-serif;
+  background-color: #edeeee;
+}
+#navbar {
+  background-color: #2f3134;
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+#logo {
+  margin-right: auto;
+}
+#header-img {
+  border-radius: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+#header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 2px 6% 0px 6%;
+}
+#nav-bar li {
+  list-style: none;
+  display: inline-block;
+  padding: 0px 20px;
+}
+.hero{
+  background-color: #dbcbd8a4;
+  height: 100vh;
+  padding: 135px 0 80px 0;
+}
+#site-disc > h1 {
+  font-size: 3rem;
+  margin-bottom: 100px;
+  /* margin: 50px 0 100px 0; */
+  text-align: center;
+}
+
+#form {
+  text-align: center;
+}
+label {
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+#email {
+  max-width: 400px;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 1.3rem;
+}
+#submit {
+  max-width: 400px;
+  width: 100%;
+  height: 50px;
+  font-size: 1.3rem;
+  border-radius: 5px;
+  background-color: #5f5c57;
+  color: rgb(255, 255, 255);
+}
+.how-to{
+  text-align: center;
+  padding-top: 80px;
+  font-size: 2.5rem;
+
+}
+#video-container {
+  margin-top: 80px;
+  display: flex;
+  justify-content: center;
+}
+
+#how-it-works > iframe {
+  max-width: 560px;
+  width: 100%;
+}
+#features {
+  margin: 100px 0 0 0;
+}
+
+#name-phone {
+  font-size: 2.5rem;
+  margin: 30px 0;
+  text-align: center;
+}
+.product-container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 50px;
+}
+
+.product-item {
+  width: 340px;
+  margin: 10px;
+  padding: 0;
+  /* border: 3px solid #333;
+  background-color: #dfdfdf; */
+}
+
+.product-img {
+  width: 600px;
+  min-height: 350px;
+  flex-shrink: 0;
+  flex: 0 0 400px;
+  /* flex-grow: 1; */
+}
+
+.product-description {
+  min-height: 400px;
+  text-align: center;
+  /* flex-shrink: 0; */
+  /* flex-grow: 1; */
+}
+#img-phone {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+#img-phone-2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 280px;
+  border-radius: 8px;
+}
+#text-phone {
+  padding-top: 20px;
+  text-align: center;
+  line-height: 30px;
+}
+#specs {
+  margin: 85px 0 100px 0;
+}
+
+#specs-phone {
+  font-size: 2.5rem;
+  margin: 30px 0;
+  text-align: center;
+}
+.order1{
+  order: 1;
+}
+.order2{
+  order: 2;
+}
+.footer {
+  background-color: #2f3134;
+  padding: 70px 0;
+}
+.footer-container {
+  max-width: 1170px;
+  margin: auto;
+}
+.footer-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-col {
+  width: 25%;
+  padding: 0 15px;
+}
+
+.footer-col h4 {
+  font-size: 18px;
+  color: #edf0f1;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: #e91e63;
+  height: 2px;
+  box-sizing: border-box;
+  width: 50px;
+  text-align: left;
+}
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  list-style: none;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+}
+.footer-col ul li {
+  list-style: none;
+}
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(225, 225, 225, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+}
+.hr1{
+  width: 70%;
+  margin: 130px auto 0 auto;
+}
+.hr2{
+  width: 70%;
+  margin: 70px auto 0 auto;
+}
